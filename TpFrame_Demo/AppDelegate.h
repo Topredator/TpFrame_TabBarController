@@ -6,12 +6,8 @@
 //  Copyright © 2016年 Topredator. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseAppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface AppDelegate : BaseAppDelegate
 
 @end
-

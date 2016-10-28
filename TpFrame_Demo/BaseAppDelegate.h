@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseAppDelegate.h
 //  TpFrame_Demo
 //
 //  Created by zhouxiaolu on 16/10/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface BaseAppDelegate : UIResponder<UIApplicationDelegate>
+@property (strong, nonatomic) UIWindow *window;
 @end
-
